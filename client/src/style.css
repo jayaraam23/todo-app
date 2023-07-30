@@ -1,0 +1,51 @@
+.app{
+    height:100vh;
+    padding: 0px 100px;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #dbf9fc;
+}
+
+.td{
+    text-align: center;
+  }
+.todo{
+    background-color: rgb(13, 235, 247);
+    border: 1px solid black;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.delete{
+    
+    border: none;
+    padding:3px 6px;
+    background-color:  rgb(218, 10, 10) ;
+    cursor: pointer;
+    border: 1px solid rgb(3, 0, 0);
+    color: aqua;
+
+}
+.update{
+    border: none;
+    padding:3px 6px;
+    background-color:  rgb(8, 57, 234) ;
+    cursor: pointer;
+    border: 1px solid rgb(7, 4, 17);
+    color: aqua;
+    text-decoration: none;
+    color: azure;
+
+}
+.add{
+    padding: 20px;
+    background-color: aqua;
+    border: 1px solid  black;
+    
+}
+.addbtn{
+    background-color: green;
+}
